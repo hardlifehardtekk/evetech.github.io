@@ -86,11 +86,6 @@ body {
     flex: 1 0 auto; /* This will push the footer down */
 }
 
-#contact{
-    margin-top: 2rem;
-    color:black;
-    padding-bottom: 2rem;
-}
 .dropdown-item{
     color: white;
 }
