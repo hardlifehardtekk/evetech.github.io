@@ -97,7 +97,7 @@ body {
 
 .dropdown-item {
     color: white;
-    z-index: 3;
+    z-index: 10 !important;
 }
 
 .dropdown-menu :hover {
