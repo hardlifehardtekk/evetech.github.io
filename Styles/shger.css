@@ -1,9 +1,27 @@
-@keyframes typing {
+@keyframes typing1 {
     from {
         width: 0
     }
     to {
-        width: max-content
+        width: 28ch
+    }
+}
+
+@keyframes typing2 {
+    from {
+        width: 0
+    }
+    to {
+        width: 21ch
+    }
+}
+
+@keyframes typing3 {
+    from {
+        width: 0
+    }
+    to {
+        width: 28ch
     }
 }
 
@@ -46,11 +64,15 @@
 }
 
 .carousel-inner h1 {
-    animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
+    animation: typing1 3.5s steps(28, end), blink-caret .75s step-end infinite;
     width: 28ch;
 }
 
 .carousel-inner h2 {
-    animation: typing 3.5s steps(21, end), blink-caret .75s step-end infinite;
+    animation: typing2 3.5s steps(21, end), blink-caret .75s step-end infinite;
     width: 21ch;
+}
+
+.carousel-inner #c2 {
+    background-color: rgba(43, 43, 43, 0.61);
 }
