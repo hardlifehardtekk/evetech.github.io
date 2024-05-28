@@ -28,7 +28,7 @@ body {
     background-color: #3C477D;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    z-index: 2;
+    z-index: 3;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
