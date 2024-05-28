@@ -24,7 +24,12 @@
     position: relative;
 }
 
-.carousel-inner h1 {
+.carousel-inner img {
+    width: 50%;
+    height: auto;
+}
+
+.carousel-inner .heads {
     position: absolute;
     top: 50%;
     left: 50%;
