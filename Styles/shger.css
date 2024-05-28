@@ -3,7 +3,7 @@
         width: 0
     }
     to {
-        width: 28ch
+        width: 29ch
     }
 }
 
@@ -65,7 +65,7 @@
 
 .carousel-inner h1 {
     animation: typing1 3.5s steps(28, end), blink-caret .75s step-end infinite;
-    width: 28ch;
+    width: 29ch;
 }
 
 .carousel-inner h2 {
@@ -74,5 +74,5 @@
 }
 
 .carousel-inner #c2 {
-    background-color: rgba(43, 43, 43, 0.61);
+    background-color: rgba(0, 0, 0, 0.715);
 }
