@@ -42,26 +42,13 @@
     position: relative;
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Added this line */
-}
-
-.carousel-inner img {
-    position: relative;
-    /* Changed from absolute to relative */
-    width: 50%;
-    height: auto;
-    margin: auto;
-    /* Added this line */
 }
 
 .carousel-inner .heads {
-    /* position: absolute; Removed this line */
-    top: 50%;
-    left: 50%;
+    position: absolute;
     z-index: 5;
+    /* Make sure this is higher than the z-index (if any) of your images */
+    /* existing styles */
     display: inline-block;
     overflow: hidden;
     border-right: .15em solid white;
@@ -83,9 +70,4 @@
 
 .carousel-inner #c2 {
     background-color: rgba(0, 0, 0, 0.715);
-}
-
-#content {
-    display: flex;
-    align-items: center;
 }
