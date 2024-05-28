@@ -1,0 +1,42 @@
+h1 {
+    display: inline-block;
+    /* This makes the h1 element only as wide as its content */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white;
+    /* The typewriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
+    width: 28ch;
+    /* This sets the width to the length of the content */
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: auto;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 28ch
+    }
+    /* This makes the animation cover only the content of the h1 tag */
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white;
+    }
+}
