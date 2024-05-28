@@ -40,9 +40,6 @@
 
 .carousel-inner {
     position: relative;
-}
-
-.carousel-inner img {
     width: 50%;
     height: auto;
 }
