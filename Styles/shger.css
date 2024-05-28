@@ -42,6 +42,8 @@
     position: relative;
     width: 50%;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel-inner .heads {
@@ -58,6 +60,7 @@
     white-space: nowrap;
     color: rgb(255, 255, 255);
     font-family: "Reddit Mono", monospace;
+    font-size: 14pt;
 }
 
 .carousel-inner h1 {
