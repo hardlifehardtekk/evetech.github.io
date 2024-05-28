@@ -46,11 +46,15 @@
     justify-content: center;
 }
 
+.carousel-inner img {
+    width: 50%;
+    height: auto;
+}
+
 .carousel-inner .heads {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 5;
     /* Make sure this is higher than the z-index (if any) of your images */
     /* existing styles */
