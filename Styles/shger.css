@@ -3,7 +3,7 @@
         width: 0
     }
     to {
-        width: 28ch
+        width: 25ch
     }
     /* This makes the animation cover only the content of the h1 tag */
 }
@@ -37,9 +37,8 @@
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
-    animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
-    width: 28ch;
+    animation: typing 3.5s steps(25, end), blink-caret .75s step-end infinite;
+    width: 25ch;
     color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
-    font-size: auto;
 }
