@@ -51,6 +51,12 @@
     height: auto;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .carousel-inner .heads {
     position: absolute;
     top: 50%;
