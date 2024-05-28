@@ -44,26 +44,24 @@
     height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    /* Added this line */
 }
 
 .carousel-inner img {
+    position: relative;
+    /* Changed from absolute to relative */
     width: 50%;
     height: auto;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    /* Added this line */
 }
 
 .carousel-inner .heads {
-    position: absolute;
+    /* position: absolute; Removed this line */
     top: 50%;
     left: 50%;
     z-index: 5;
-    /* Make sure this is higher than the z-index (if any) of your images */
-    /* existing styles */
     display: inline-block;
     overflow: hidden;
     border-right: .15em solid white;
