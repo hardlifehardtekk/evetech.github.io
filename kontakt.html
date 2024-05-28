@@ -94,6 +94,25 @@
                             <textarea class="form-control" id="message" rows="3" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Absenden</button>
+                        <script>
+                        document.querySelector('form').addEventListener('submit', function(event) {
+                            // Verhindert das Absenden des Formulars
+                            event.preventDefault();
+                        
+                            // Zugriff auf die Formularelemente
+                            var name = document.getElementById('name').value;
+                            var email = document.getElementById('email').value;
+                            var message = document.getElementById('message').value;
+                        
+                            // Überprüft, ob alle Felder ausgefüllt sind
+                            if (name === '' || email === '' || message === '') {
+                                alert('Fehler, Sie müssen alle Felder ausfüllen.');
+                            } else {
+                                alert('Ihre Nachricht wurde gesendet. Es wird so schnell wie möglich beantworten.');
+                                // Hier können Sie den Code hinzufügen, um die Nachricht tatsächlich zu senden
+                            }
+                        });
+                    </script>
                     </form>
                 </div>
             </section>
@@ -115,6 +134,7 @@
         <button onclick="window.open('kontakt.html', '_blank');" id="Btn" type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <img src="images/kont.png" alt="Kontakt">
       </button>
+      
     </div>
 
     <!-- Copyright -->
