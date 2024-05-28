@@ -1,75 +1,80 @@
-        @keyframes typing1 {
-        from {
-            width: 0
-        }
-        to {
-            width: 29ch
-        }
+@keyframes typing1 {
+    from {
+        width: 0
     }
-    
-    @keyframes typing2 {
-        from {
-            width: 0
-        }
-        to {
-            width: 21ch
-        }
+    to {
+        width: 29ch
     }
-    
-    @keyframes typing3 {
-        from {
-            width: 0
-        }
-        to {
-            width: 28ch
-        }
+}
+
+@keyframes typing2 {
+    from {
+        width: 0
     }
-    /* The typewriter cursor effect */
-    
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color: transparent
-        }
-        50% {
-            border-color: white;
-        }
+    to {
+        width: 21ch
     }
-    
-    .carousel-inner {
-        position: relative;
-        width: 100%;
-        height: auto;
+}
+
+@keyframes typing3 {
+    from {
+        width: 0
     }
-    
-    .carousel-inner .heads {
-        .carousel-inner .heads {
-            position: absolute;
-            top: 50%;
-            /* Adjust this value to position the text vertically */
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 5;
-            /* Ensure the text is above the images */
-            display: inline-block;
-            overflow: hidden;
-            border-right: .15em solid white;
-            white-space: nowrap;
-            color: rgb(255, 255, 255);
-            font-family: "Reddit Mono", monospace;
-            font-size: 14pt;
-        }
-        .carousel-inner h1 {
-            animation: typing1 3.5s steps(28, end), blink-caret .75s step-end infinite;
-            width: 29ch;
-        }
-        .carousel-inner h2 {
-            animation: typing2 3.5s steps(21, end), blink-caret .75s step-end infinite;
-            width: 21ch;
-        }
-        .carousel-inner #c2 {
-            background-color: rgba(0, 0, 0, 0.715);
-        }
-        .carousel-inner img {
-            z-index: 4;
-        }
+    to {
+        width: 28ch
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white;
+    }
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner .heads {
+    position: absolute;
+    top: 50%;
+    /* Adjust this value to position the text vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    /* Ensure the text is above the images */
+    display: inline-block;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    font-family: "Reddit Mono", monospace;
+    font-size: 14pt;
+}
+
+.carousel-inner h1 {
+    animation: typing1 3.5s steps(28, end), blink-caret .75s step-end infinite;
+    width: 29ch;
+}
+
+.carousel-inner h2 {
+    animation: typing2 3.5s steps(21, end), blink-caret .75s step-end infinite;
+    width: 21ch;
+}
+
+.carousel-inner #c2 {
+    background-color: rgba(0, 0, 0, 0.715);
+}
+
+.carousel-inner img {
+    z-index: 4;
+}
