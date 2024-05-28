@@ -3,9 +3,8 @@
         width: 0
     }
     to {
-        width: 25ch
+        width: 28ch
     }
-    /* This makes the animation cover only the content of the h1 tag */
 }
 
 
@@ -37,8 +36,8 @@
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
-    animation: typing 3.5s steps(25, end), blink-caret .75s step-end infinite;
-    width: 25ch;
+    animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
+    width: 28ch;
     color: rgb(255, 255, 255);
-    font-family: "Montserrat", sans-serif;
+    font-family: "Reddit Mono", monospace;
 }
