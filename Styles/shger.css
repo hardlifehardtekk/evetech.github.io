@@ -86,3 +86,8 @@ img {
 .carousel-inner #c2 {
     background-color: rgba(0, 0, 0, 0.715);
 }
+
+#content {
+    display: flex;
+    align-items: center;
+}
