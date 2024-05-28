@@ -21,7 +21,7 @@
         width: 0
     }
     to {
-        width: 28ch
+        width: 21ch
     }
 }
 
@@ -67,6 +67,11 @@
 }
 
 .carousel-inner h2 {
+    animation: typing2 3.5s steps(21, end), blink-caret .75s step-end infinite;
+    width: 21ch;
+}
+
+.carousel-inner h3 {
     animation: typing2 3.5s steps(21, end), blink-caret .75s step-end infinite;
     width: 21ch;
 }
