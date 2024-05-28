@@ -1,0 +1,11 @@
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+    position: relative; /* Positionierung relativ für den z-index */
+    z-index: 1; /* Stellt sicher, dass der Hauptinhalt über dem Vanta.js-Effekt liegt */
+}
+h1, h2 {
+    color: #3C477D;
+}
