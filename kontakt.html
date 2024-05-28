@@ -26,6 +26,19 @@
                 spacing: 20.00,
             })
         })
+        function submitForm(event) {
+            event.preventDefault();
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            let message = document.getElementById('message').value;
+
+            if (name === '' || email === '' || message === '') {
+                alert('Fehler, Sie müssen alle Felder ausfüllen.');
+            } else {
+                document.getElementById('contact-form').reset();
+                alert('Ihre Nachricht wurde gesendet. Wir werden so schnell wie möglich antworten.');
+            }
+        }
     </script>
 </head>
 
