@@ -1,25 +1,30 @@
-#container {
+#content {
     width: 80%;
     margin: 20px auto;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 50px #4B589A;
+    z-index: 2;
 }
+
 h1 {
     text-align: center;
     color: #3C477D;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 th, td {
     padding: 10px;
     text-align: left;
     color: #3C477D;
     border-bottom: 1px solid #4B589A;
 }
+
 th {
     background-color: #f2f2f2;
 }
