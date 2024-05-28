@@ -3,7 +3,7 @@
         width: 0
     }
     to {
-        width: 28ch
+        width: auto
     }
 }
 
@@ -41,8 +41,16 @@
     overflow: hidden;
     border-right: .15em solid white;
     white-space: nowrap;
-    animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
-    width: 28ch;
     color: rgb(255, 255, 255);
     font-family: "Reddit Mono", monospace;
+}
+
+.carousel-inner h1 {
+    animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
+    width: 28ch;
+}
+
+.carousel-inner h2 {
+    animation: typing 3.5s steps(21, end), blink-caret .75s step-end infinite;
+    width: 21ch;
 }
