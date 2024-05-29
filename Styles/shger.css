@@ -81,9 +81,9 @@
 }
 
 .carousel-inner img {
-    z-index: 4;
-}
-
-.carousel-item .active {
     width: 50%;
+    height: auto;
+    z-index: 4;
+    display: block;
+    margin: auto;
 }
