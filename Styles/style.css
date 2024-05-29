@@ -13,7 +13,7 @@ body {
 
 .logobar {
     display: flex;
-    background-color: #4B589A;
+    background-color: #24252b;
     width: 100%;
     height: 6rem;
     justify-content: center;
@@ -25,7 +25,7 @@ body {
 
 .navbar {
     margin-top: 12pt;
-    background-color: #3C477D;
+    background-color: #16171a;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     z-index: 5;
@@ -56,9 +56,13 @@ body {
     z-index: 0;
 }
 
+.btn {
+    background-color: #5b5c5d;
+}
+
 .btn-floating {
     height: 32px;
-    border-color: #4B589A;
+    border-color: #17171b;
     border-width: 2px;
     line-height: 32px;
     /* Adjust as needed */
@@ -90,7 +94,8 @@ body {
     position: relative;
     z-index: 1;
     display: block;
-    background-color: white;
+    border-radius: 2rem;
+    background-color: #2828288a;
     flex: 1 0 auto;
     /* This will push the footer down */
 }
@@ -101,7 +106,7 @@ body {
 }
 
 .dropdown-menu :hover {
-    background-color: #3C477D;
+    background-color: #2a2c32;
     color: white;
     text-decoration: underline;
 }

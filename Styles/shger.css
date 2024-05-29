@@ -20,6 +20,10 @@ body {
     margin-bottom: 45px
 }
 
+.product-caption {
+    padding: 0.15rem
+}
+
 .product-action {
     bottom: 0px;
     left: 0;
@@ -111,11 +115,6 @@ body {
     50% {
         border-color: white;
     }
-}
-
-#content {
-    border-radius: 2rem;
-    background-color: #2828288a;
 }
 
 .row {
