@@ -1,36 +1,38 @@
 #content {
-    width: 70%;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 50px #4B589A;
-    z-index: 2;
-    color: black;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    display: block;
+    border-radius: 2rem;
+    background-color: #2828288a;
+    flex: 1 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* This will push the footer down */
 }
 
 h1 {
     text-align: center;
-    color: #3C477D; 
+    color: #3C477D;
 }
 
-h2{
-   text-align: center;
-    color: #3C477D; 
+h2 {
+    text-align: center;
+    color: #3C477D;
 }
 
-#displayText
-{    
-margin-top:20px;    
-font-size:18px;
+#displayText {
+    margin-top: 20px;
+    font-size: 18px;
 }
 
-#displayImage
-{    
-margin-top:20px;    
-max-width:100%;    
-height: auto;    
-border:1px solid #ccc;    
-padding:10px;    
-background-color:#fff;
+#displayImage {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
 }

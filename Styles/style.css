@@ -105,9 +105,6 @@ body {
 .dropdown-item {
     color: white;
     z-index: 10 !important;
-}
-
-.dropdown-menu {
     background-color: #16171a;
 }
 
