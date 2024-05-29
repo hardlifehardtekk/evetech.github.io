@@ -5,7 +5,6 @@
         
         h5 {
             text-align: center!important;
-            text-decoration: none !important;
             color: white !important;
         }
         
@@ -19,7 +18,7 @@
             background-color: #3d3f45 !important;
             border-radius: 3rem !important;
             border-width: 3px !important;
-            margin-bottom: 3rem;
+            margin-top: 3rem;
         }
         
         .card-body {
@@ -37,11 +36,8 @@
             background-color: transparent !important;
             margin-left: auto !important;
             margin-right: auto !important;
-        }
-        
-        #btn:hover {
-            background-color: #161711b3;
-            font-weight: bold;
+            text-decoration: none !important;
+            color: white !important;
         }
         
         #accordion {
