@@ -1,4 +1,4 @@
-@keyframes typing1 {
+    @keyframes typing1 {
     from {
         width: 0
     }
@@ -39,9 +39,11 @@
 }
 
 .carousel-inner {
-    position: relative;
-    width: 100%;
+    width: 50%;
     height: auto;
+    z-index: 4;
+    display: block;
+    margin: auto;
 }
 
 .carousel-inner .heads {
@@ -81,9 +83,3 @@
 }
 
 .carousel-inner img {
-    width: 50%;
-    height: auto;
-    z-index: 4;
-    display: block;
-    margin: auto;
-}
