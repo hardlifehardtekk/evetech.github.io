@@ -23,5 +23,11 @@
         
         #accordion {
             width: 80%;
-            padding-left: 1rem
+            border-radius: 3rem;
+            border-width: 0px;
+        }
+        
+        #content {
+            display: flex;
+            justify-content: center;
         }
