@@ -11,16 +11,20 @@
         .card {
             border-radius: 3rem !important;
             border-width: 3px !important;
-            margin-bottom: 2rem;
+            border-color: rgba(22, 23, 17, 0.804) margin-bottom: 2rem;
         }
         
         .card-header {
             background-color: #3d3f45 !important;
+            border-radius: 3rem !important;
+            border-width: 3px !important;
         }
         
         .card-body {
             background-color: #24252b !important;
             color: white;
+            border-radius: 3rem !important;
+            border-width: 3px !important;
         }
         
         p {
