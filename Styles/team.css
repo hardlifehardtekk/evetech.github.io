@@ -11,6 +11,7 @@
         .card {
             background-color: #16171100;
             border-width: 0px;
+            margin: auto;
         }
         
         .card-header {
@@ -30,11 +31,15 @@
             color: white;
         }
         
-        #btn #btn-link {
+        #btn {
             background-color: #16171100;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         #accordion {
-            width: 80%;
-            padding-left: 2rem;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
         }
