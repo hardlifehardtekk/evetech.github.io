@@ -104,20 +104,20 @@ body {
 }
 
 .dropdown-item {
-    color: white;
+    color: white !important;
     z-index: 10 !important;
     background-color: #16171a;
 }
 
 .dropdown-menu :hover {
     background-color: #2a2c32;
-    color: white;
+    color: white !important;
     text-decoration: underline;
 }
 
 .dropdown-menu {
     background-color: #16171a;
-    color: white;
+    color: white !important;
 }
 
 footer {
