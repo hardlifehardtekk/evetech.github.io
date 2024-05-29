@@ -3,7 +3,7 @@
             color: white!important;
         }
         
-        h5 > button {
+        h5>button {
             text-align: center!important;
             color: white!important;
         }
@@ -12,13 +12,16 @@
             background-color: #16171a !important;
         }
         
-        
-        
         .card-body {
             background-color: #24252b !important;
             color: white;
         }
-
-        p{
+        
+        p {
             color: white;
+        }
+        
+        #accordion {
+            width: 80%;
+            padding-left: 1rem
         }
