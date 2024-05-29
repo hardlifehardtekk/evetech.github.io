@@ -9,7 +9,8 @@
         }
         
         .card {
-            opacity: 0;
+            background-color: #16171100;
+            border-width: 0px;
         }
         
         .card-header {
@@ -36,10 +37,4 @@
         #accordion {
             width: 80%;
             padding-left: 2rem;
-        }
-        
-        #content {
-            display: flex;
-            justify-items: center;
-            flex-direction: row;
         }
