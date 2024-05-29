@@ -11,7 +11,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     if (name === '' || email === '' || message === '') {
         alert('Fehler, Sie müssen alle Felder ausfüllen.');
     } else {
-        alert('Ihre Nachricht wurde gesendet. Es wird so schnell wie möglich beantworten.');
+        alert('Ihre Nachricht wurde gesendet. Sie wird so schnell wie möglich beantworten.');
         // Hier können Sie den Code hinzufügen, um die Nachricht tatsächlich zu senden
     }
 });
