@@ -3,7 +3,7 @@
             color: white!important;
         }
         
-        h5 {
+        h5 > button {
             text-align: center;
             color: white!important;
         }
