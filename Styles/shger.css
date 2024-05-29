@@ -113,7 +113,7 @@ body {
     }
 }
 
-.content {
+#content {
     border-radius: 2rem;
     background-color: #2828288a;
 }
@@ -124,6 +124,7 @@ body {
 }
 
 .carousel-inner {
+    border-radius: 5%;
     width: 50%;
     height: auto;
     z-index: 4;
