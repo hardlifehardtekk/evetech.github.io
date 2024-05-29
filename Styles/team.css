@@ -21,6 +21,11 @@ h2 {
     padding: 10px;
     background-color: #fff;
 }
-.card{
+
+.card-body {
+    background-color: #16171a;
+}
+
+.card-header {
     background-color: #24252b;
 }
