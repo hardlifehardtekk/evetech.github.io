@@ -113,6 +113,11 @@ body {
     }
 }
 
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
 .carousel-inner {
     width: 50%;
     height: auto;

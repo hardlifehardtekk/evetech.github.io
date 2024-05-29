@@ -107,6 +107,7 @@ body {
 }
 
 footer {
+    margin-top: 2rem;
     position: relative;
     min-width: 100%;
     flex-shrink: 0;
