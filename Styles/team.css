@@ -6,17 +6,16 @@
         h5>button {
             text-align: center!important;
             color: white!important;
-            background-color: #16171100;
         }
         
         .card {
             border-radius: 3rem !important;
-            border-width: 0px !important;
+            border-width: 3px !important;
             margin-bottom: 2rem;
         }
         
         .card-header {
-            background-color: #16171a !important;
+            background-color: #3d3f45 !important;
         }
         
         .card-body {
@@ -26,6 +25,10 @@
         
         p {
             color: white;
+        }
+        
+        #btn #btn-link {
+            background-color: #16171100;
         }
         
         #accordion {
