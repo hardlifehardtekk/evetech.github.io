@@ -12,6 +12,7 @@
         .card {
             border-radius: 3rem !important;
             border-width: 0px !important;
+            margin-bottom: 2rem;
         }
         
         .card-header {
