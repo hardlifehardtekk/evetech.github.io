@@ -2,7 +2,7 @@
 
 h1 {
     text-align: center;
-    color: #3C477D;
+    color: white;
 }
 
 table {
@@ -13,6 +13,6 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    color: #3C477D;
+    color: white;
     border-bottom: 1px solid #4B589A;
 }
