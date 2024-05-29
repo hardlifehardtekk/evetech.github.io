@@ -9,10 +9,13 @@
             background-color: #16171100;
         }
         
-        .card-header {
-            background-color: #16171a !important;
+        .card {
             border-radius: 3rem !important;
             border-width: 0px !important;
+        }
+        
+        .card-header {
+            background-color: #16171a !important;
         }
         
         .card-body {
