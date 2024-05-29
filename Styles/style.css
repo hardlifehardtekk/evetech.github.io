@@ -97,12 +97,18 @@ body {
     border-radius: 2rem;
     background-color: #2828288a;
     flex: 1 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     /* This will push the footer down */
 }
 
 .dropdown-item {
     color: white;
     z-index: 10 !important;
+}
+
+.dropdown-menu {
+    background-color: #16171a;
 }
 
 .dropdown-menu :hover {
