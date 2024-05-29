@@ -7,3 +7,10 @@ h2 {
     text-align: center;
     color: #3C477D;
 }
+.card-header{
+    background-color: #3C477D;
+}
+
+.card-bottom{
+    background-color: #3C477D;
+}
