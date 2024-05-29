@@ -1,11 +1,11 @@
         h1 {
             text-align: center;
-            color: #3C477D;
+            color: white;
         }
         
         h5 {
             text-align: center;
-            color: #3C477D;
+            color: white;
         }
         
         .card-header {
@@ -16,5 +16,9 @@
         
         .card-body {
             background-color: #24252b !important;
-            color: #3C477D;
+            color: white;
+        }
+
+        p{
+            color: white;
         }
