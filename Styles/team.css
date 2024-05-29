@@ -9,9 +9,7 @@
         }
         
         .card {
-            border-radius: 3rem !important;
-            border-width: 3px !important;
-            border-color: rgba(22, 23, 17, 0.804) margin-bottom: 2rem;
+            opacity: 0;
         }
         
         .card-header {
@@ -38,4 +36,10 @@
         #accordion {
             width: 80%;
             padding-left: 2rem;
+        }
+        
+        #content {
+            display: flex;
+            justify-items: center;
+            flex-direction: row;
         }
