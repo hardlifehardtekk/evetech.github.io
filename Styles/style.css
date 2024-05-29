@@ -99,6 +99,7 @@ body {
     flex: 1 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
     /* This will push the footer down */
 }
 
@@ -114,6 +115,11 @@ body {
     text-decoration: underline;
 }
 
+.dropdown-menu {
+    background-color: #16171a;
+    color: white;
+}
+
 footer {
     margin-top: 2rem;
     position: relative;
@@ -121,5 +127,6 @@ footer {
     flex-shrink: 0;
     z-index: 1;
     height: 5%;
+    background-color: #24252b
     /* Set the footer height to 5% */
 }
