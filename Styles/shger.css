@@ -83,3 +83,7 @@
 .carousel-inner img {
     z-index: 4;
 }
+
+.carousel-item .active {
+    width: 50%;
+}
