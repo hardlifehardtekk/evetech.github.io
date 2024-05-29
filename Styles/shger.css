@@ -113,6 +113,11 @@ body {
     }
 }
 
+.content {
+    border-radius: 2rem;
+    background-color: #2828288a;
+}
+
 .row {
     display: flex;
     justify-content: space-around;
