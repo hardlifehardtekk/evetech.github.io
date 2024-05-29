@@ -3,7 +3,7 @@
             color: #3C477D;
         }
         
-        h2 {
+        h5 {
             text-align: center;
             color: #3C477D;
         }
@@ -12,11 +12,9 @@
             background-color: #16171a !important;
         }
         
-        h1,
-        h5 {
-            color: #3C477D;
-        }
+        
         
         .card-body {
             background-color: #24252b !important;
+            color: #3C477D;
         }
