@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
 body {
     vertical-align: middle;
     display: flex;
-    font-family: 'Calibri', sans-serif !important;
     background-color: #eee
 }
 
