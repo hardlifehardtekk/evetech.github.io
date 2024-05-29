@@ -10,7 +10,6 @@
         
         .card-header {
             background-color: #16171a !important;
-            width: 80%;
         }
         
         
@@ -18,7 +17,6 @@
         .card-body {
             background-color: #24252b !important;
             color: white;
-            width: 80%;
         }
 
         p{
