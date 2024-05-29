@@ -8,15 +8,15 @@
             color: #3C477D;
         }
         
-        .collapse .show {
+        .card-header {
             background-color: #16171a !important;
         }
         
         h1,
-        h5{
+        h5 {
             color: #3C477D;
         }
         
         .card-body {
-            background-color: #16171a !important;
+            background-color: #24252b !important;
         }
