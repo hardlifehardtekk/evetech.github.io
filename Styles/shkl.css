@@ -87,7 +87,7 @@ body {
         width: 0
     }
     to {
-        width: 32ch
+        width: 33ch
     }
 }
 
@@ -105,6 +105,7 @@ body {
     position: absolute;
     /* Adjust this value to position the text vertically */
     left: 50%;
+    top: 10%;
     transform: translate(-50%, -50%);
     z-index: 5;
     /* Ensure the text is above the images */
@@ -115,6 +116,6 @@ body {
     color: rgb(255, 255, 255);
     font-family: "Reddit Mono", monospace;
     font-size: 18pt;
-    animation: typing1 3.5s steps(32, end), blink-caret .75s step-end infinite;
-    width: 32ch;
+    animation: typing1 3.5s steps(33, end), blink-caret .75s step-end infinite;
+    width: 33ch;
 }
