@@ -1,8 +1,7 @@
-
-
 h1 {
     text-align: center;
     color: white;
+    text-decoration: underline;
 }
 
 table {
@@ -10,7 +9,8 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
     color: white;
