@@ -40,7 +40,7 @@ p {
     color: white !important;
 }
 
-.btn-link :hover {
+.btn-link:hover {
     font-weight: bold;
 }
 
