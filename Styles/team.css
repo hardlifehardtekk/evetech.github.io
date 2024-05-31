@@ -22,7 +22,7 @@
         }
         
         .card-body {
-            background-color: #24252b !important;
+            background-color: transparent !important;
             color: white;
             border-radius: 3rem !important;
             border-width: 3px !important;
