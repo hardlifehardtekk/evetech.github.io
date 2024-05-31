@@ -32,7 +32,7 @@ p {
     color: white;
 }
 
-.btn {
+.btn .btn-link {
     background-color: transparent !important;
     margin-left: auto !important;
     margin-right: auto !important;
