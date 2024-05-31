@@ -1,5 +1,47 @@
-h1,
-h2 {
-    text-decoration: underline;
+h1 {
+    text-align: center;
+    color: white!important;
+}
+
+h5 {
+    text-align: center!important;
+    color: white !important;
+}
+
+.card {
+    background-color: #16171100;
+    border-width: 0px;
+    margin: auto;
+}
+
+.card-header {
+    background-color: #3d3f45 !important;
+    border-radius: 3rem !important;
+    border-width: 3px !important;
+    margin-top: 3rem;
+}
+
+.card-body {
+    background-color: #24252b !important;
     color: white;
+    border-radius: 3rem !important;
+    border-width: 3px !important;
+}
+
+p {
+    color: white;
+}
+
+.btn {
+    background-color: transparent !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#accordion {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
