@@ -9,7 +9,7 @@
         }
         
         .card {
-            background-color: #16171100;
+            background-color: #16171100!important;
             border-width: 0px;
             margin: auto;
         }
